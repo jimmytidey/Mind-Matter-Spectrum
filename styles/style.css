@@ -33,7 +33,7 @@ h2 {
 
 #spectrum_image {
 	float:left;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 0px 20px 0px;
 }   
 
 #spectrum_labels {
@@ -51,6 +51,11 @@ h2 {
 	margin-left:22px;
 }
 
+.spectral_line ul{
+	padding-left:5px; 
+	margin-left:0px;
+}	
+
 .spectral_line:first-child {
 	margin-left:0px;
 }
@@ -58,4 +63,9 @@ h2 {
 
 .spacer {
 	clear:both;
+}
+
+#zoom_in {
+	border:1px solid black;
+}	
 }
