@@ -2,6 +2,7 @@
 body, html {
 	margin:0px;
 	padding:0px;
+	background-color:#FFF1E0;
 }
 
 p,h1,h2 {
@@ -25,10 +26,8 @@ h2 {
 
 #article { 
 	position:relative;
-	width: 940px;
+	width: 1088px;
 	margin: 0px auto;
-	border-left:1px solid black;
-	border-right:1px solid black;
 	padding:10px;
 }
 
@@ -38,10 +37,22 @@ h2 {
 }   
 
 #spectrum_labels {
-	float:left;
-	width:500px;
-	padding-left:10px;
 	margin-bottom:30px;
+}
+
+#spectrum_labels h2 {
+	text-align:center;
+	font-size:14px;
+}
+
+.spectral_line {
+	width:200px;
+	float:left;
+	margin-left:22px;
+}
+
+.spectral_line:first-child {
+	margin-left:0px;
 }
 
 
