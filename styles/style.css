@@ -1,0 +1,50 @@
+
+body, html {
+	margin:0px;
+	padding:0px;
+}
+
+p,h1,h2 {
+	
+	font-family: "GlyphaLTStd35ThinOblique",'Georgia',serif;	
+}
+
+p,h2 {
+	margin-top:0px;
+	
+}
+
+h2 {
+	margin-bottom:4px;
+}
+
+#header {
+	
+	
+}
+
+#article { 
+	position:relative;
+	width: 940px;
+	margin: 0px auto;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	padding:10px;
+}
+
+#spectrum_image {
+	float:left;
+	margin: 0px 10px 0px 0px;
+}   
+
+#spectrum_labels {
+	float:left;
+	width:500px;
+	padding-left:10px;
+	margin-bottom:30px;
+}
+
+
+.spacer {
+	clear:both;
+}
